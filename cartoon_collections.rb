@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(veggies)
   veggies.collect do |x| 
-    x + "!"
+    x + "!".capitalize
 end
 end
 
